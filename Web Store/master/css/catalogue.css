@@ -1,0 +1,235 @@
+#catalogue_carrousel a img {
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.card-title {
+    margin: -5px 0px -5px 0px;
+}
+
+.best_product_price, .sales_product_price {
+    margin-bottom: -15px;
+}
+
+.best_product_name, .sales_product_name {
+    position: relative;
+    top: -5px;
+}
+
+
+#best_products, #sales_products {
+    margin-bottom: 30px;
+}
+
+
+#sales_header {
+    margin-bottom: 25px;
+}
+
+.sales_badge {
+    position: absolute;
+    right: 0px;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.sales_old_price {
+    text-decoration: line-through;
+    color: #ed5844;
+}
+
+.carousel-inner .carousel-item .sales_price_badge{
+    position: absolute;
+    width:100%;
+    color: #ffa500;
+    background-color: rgba(52, 58, 64, .9);
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    visibility: hidden;
+}
+
+#showcase #sales_carousel .card:hover  .sales_price_badge{
+    visibility: visible;
+}
+
+
+.carousel-inner > div > img {
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+#products_header, #sales_header {
+    margin-bottom: 10px;
+}
+
+.header_best_products > h2, .header_on_sale_products > h2{
+    border-bottom: #ed5844 4px solid;
+}
+
+#best_products_cards .card-footer > button, #showcase .carousel .card-footer > button, .add_to_cart {
+    background-color: #ed5844;
+}
+
+#sales_products {
+    margin-bottom: 30px;
+}
+
+#showcase .sales_card_body, .best_products_card_body {
+    text-align: center;
+}
+
+.sales_new_price {
+    margin-left: 5px;
+}
+
+#showcase button {
+    white-space:normal !important;
+}
+
+#best_products .card-title, #sales_products .card-title {
+    height: 50px;
+    white-space: normal;
+}
+
+
+@media screen
+and (max-device-width : 480px)
+{
+    .header_best_products > h2, .header_on_sale_products > h2
+    {
+        font-size: 24px;
+        border-bottom: #ed5844 4px solid;
+        width: 50%;
+    }
+
+    .carousel-inner .carousel-item .sales_price_badge {
+        visibility: visible;
+    }
+
+}
+
+@media screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+
+    #best_products_cards .card-footer > button{
+        background-color: #ed5844;
+        visibility: visible;
+    }
+
+    .header_best_products > h2, .header_on_sale_products > h2
+    {
+        font-size: 30px;
+        border-bottom: #ed5844 4px solid;
+    }
+
+    .carousel-inner .carousel-item .sales_price_badge {
+        visibility: visible;
+    }
+
+    #best_products .card-title, #sales_products .card-title {
+        height: 30px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media screen
+and (max-device-width: 768px)
+and (min-device-width: 480px)
+{
+    .header_best_products > h2, .header_on_sale_products > h2 {
+        width: 30%;
+    }
+
+    .carousel-inner .carousel-item .sales_price_badge {
+        visibility: visible;
+    }
+}
+
+@media screen
+and (min-device-width: 769px)
+and (max-device-width: 1024px)
+{
+    .header_best_products > h2, .header_on_sale_products > h2 {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) {
+
+    /* show 3 items */
+    #showcase .carousel .carousel-inner .active,
+    #showcase .carousel .carousel-inner .active + .carousel-item,
+    #showcase .carousel .carousel-inner .active + .carousel-item + .carousel-item,
+    #showcase .carousel .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
+        display: block;
+    }
+
+    #showcase .carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    #showcase .carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    #showcase .carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+    #showcase .carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+    }
+
+    #showcase .carousel .carousel-inner .carousel-item-next,
+    #showcase .carousel .carousel-inner .carousel-item-prev {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+
+    #showcase .carousel .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* left or forward direction */
+    #showcase .carousel .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    #showcase .carousel .carousel-item-next.carousel-item-left + .carousel-item,
+    #showcase .carousel .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    #showcase .carousel .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
+    #showcase .carousel .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    /* farthest right hidden item must be abso position for animations */
+    #showcase .carousel .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* right or prev direction */
+    #showcase .carousel .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    #showcase .carousel .carousel-item-prev.carousel-item-right + .carousel-item,
+    #showcase .carousel .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    #showcase .carousel .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
+    #showcase .carousel .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+
+@media screen
+and (min-device-width: 1025px) {
+    .lead {
+        margin-left: 44px;
+    }
+}

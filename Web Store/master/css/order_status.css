@@ -1,0 +1,139 @@
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+.rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+    font-size: 17px;
+}
+
+/** */
+.order_status_title {
+    margin: 30px 0px;
+}
+
+.order_status_details {
+    margin: 20px 0px;
+}
+
+.order_status_hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/** Order details */
+
+.order_details {
+    margin-bottom: 50px;
+}
+
+#order_tracking {
+    margin-top: 10px;
+}
+
+ul.des-block {
+    list-style-type: disc;
+}
+
+ul.des-block li {
+    padding: 5px;
+}
+
+ul.des-block li span.date {
+    margin-right: 30px;
+    float:left;
+    width: 90px;
+}
+
+
+/** table */
+.order-status-table th {
+    padding: 1% 1% 1%;
+}
+.order-status-table th h1 {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.order-status-table td {
+    font-weight: normal;
+    font-size: 1em;
+    -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+    -moz-box-shadow: 0 2px 2px -2px #0E1119;
+    box-shadow: 0 2px 2px -2px #0E1119;
+    color: #343a40;
+}
+
+.order-status-table {
+    text-align: left;
+    overflow: hidden;
+    display: table;
+    color:#A7A1AE;
+}
+
+.order-status-table td {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.order-status-table th {
+    background-color: #1F2739;
+}
+
+.order-status-table tr:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.order-status-table tr a{
+    color: black !important;
+}
+
+@media (max-width: 960px) {
+    .container .order-status-table td:nth-child(6),
+    .container .order-status-table th:nth-child(6) { display: none; }
+}
+
+
+@media (max-width: 760px) {
+    .container .order-status-table td:nth-child(4),
+    .container .order-status-table th:nth-child(4) { display: none; }
+
+    .container .order-status-table td:nth-child(2),
+    .container .order-status-table th:nth-child(2) { display: none; }
+
+    .container .order-status-table td:nth-child(6),
+    .container .order-status-table th:nth-child(6) { display: none; }
+
+    .container .order-status-table td:nth-child(1),
+    .container .order-status-table th:nth-child(1) { display: none; }
+}
+
+@media (max-width: 480px) {
+    .order-status-table tr a{
+        text-decoration: none !important;
+    }
+
+    ul.breadcrumb li:first-child {
+        display: none;
+    }
+
+    ul.breadcrumb li:last-child {
+        padding: 10px 0 10px 35px;
+    }
+    .breadcrumb li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 0 10px 10px;
+        position: relative;
+        display: block;
+        float: left;
+    }
+}
+

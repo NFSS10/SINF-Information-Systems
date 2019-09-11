@@ -1,0 +1,123 @@
+#reg_succ_alert, #reg_error_alert, #login_error_alert {
+    display: none;
+}
+
+
+.modal-content {
+   color: #000000;
+    border: 1px solid #000000;
+}
+
+#login_header, #reg_header {
+    background-color: #182c39;
+    opacity: 0.9;
+}
+
+#login_header img, #reg_header img {
+    width: 144px;
+    height: 40px;
+}
+
+.dividers {
+    background-color: #d2d1d1;
+    color: #000000;
+    text-align: center;
+}
+
+.dividers h6 {
+    padding: 5px 0px 5px 0px;
+    font-weight: bold;
+}
+
+.nb-login{
+    padding:20px 25px;
+}
+
+.nb-login form{
+    color: #000000;
+}
+.nb-login form input,
+.nb-login form textarea{
+    box-shadow:none !important;
+    padding:6px 5px;
+    color:#000;
+    border:0px;
+    border-bottom:1px solid rgba(0,0,0,0.5);
+    background:transparent;
+    border-radius:0px;
+}
+.nb-login form input:focus{
+    background: rgba(0,0,0,0.05);
+}
+.nb-login form ::-webkit-input-placeholder {
+    color: rgba(0,0,0,0.5);
+}
+.nb-login form ::-moz-placeholder {
+    color: rgba(0,0,0,0.5);
+}
+.nb-login form :-ms-input-placeholder {
+    color: rgba(0,0,0,0.5);
+}
+.nb-login form .btn{
+    border:0px;
+    border-radius:25px;
+    padding:10px 20px;
+    border:1px solid rgba(0,0,0,0.5);
+    color:#000;
+    text-transform:uppercase;
+    font-weight:600;
+    background:transparent;
+    margin-top:15px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.nb-login form .btn:hover{
+    background:#ed5844;
+    color: #fff;
+    border-color: #fff;
+}
+
+#reg_postal_code {
+    display: inline;
+
+}
+
+#reg_postal_code input{
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.modal-footer {
+    color: #000000;
+}
+
+.modal_form .form-group a {
+    float:left;
+    padding-top: 7px;
+    width: 5%;
+}
+
+.modal_form .form-group a i {
+    color: red;
+}
+
+#reg_address {
+    display:inline;
+}
+
+.modal_form .form-group input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.modal_form .form-group > a {
+    display:none;
+}
+
+
+#reg_birthday a{
+    padding-top: 0px;
+}

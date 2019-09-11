@@ -1,0 +1,224 @@
+.product-image-container
+{
+    margin-top: 10px;
+    height: 420px;
+    width: 450px;
+    overflow: hidden;
+    text-align: center;  /* align center all inline elements */
+}
+
+.product-image {
+    height: 420px;
+    width: auto;
+    vertical-align: bottom;
+}
+
+#prodTitle {
+    padding-bottom: 25px;
+}
+
+#prodRating {
+    padding-left: 0px;
+}
+
+.prodMoreInfo {
+    padding: 30px 30px 60px 30px;
+}
+
+.prod_stock_geral {
+    font-size:14px;
+    margin-right: 10px;
+}
+
+.stock_status_stores {
+    height: auto;
+    width: auto;
+    max-width: 10px;
+    max-height: 10px;
+    margin-bottom: 3px;
+}
+
+.stock_status_storeName {
+    margin-left: 50px;
+}
+
+.title-price {
+    margin-bottom:0;
+}
+
+.section .btn-success{
+    width:100%;
+    border-radius:0;
+}
+
+.title-attr {
+    margin-top:0;
+    margin-bottom:0;
+    color:black;
+}
+
+.section {
+    width:100%;
+    margin-left:-15px;
+    padding:2px;
+    padding-left:15px;
+    padding-right:15px;
+    background: #f5f6f6;
+}
+
+div.section > div {
+    width:100%;
+    display:inline-flex;
+}
+
+div.section > div > input {
+    margin:0;
+    padding-left:5px;
+    font-size:10px;
+    padding-right:5px;
+    max-width:18%;
+    text-align:center;
+}
+
+.btn-minus {
+    cursor:pointer;
+    font-size:12px;
+    display:flex;
+    align-items:center;
+    padding:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border:1px solid gray;
+    border-radius:2px;
+    border-right:0;
+}
+.btn-plus {
+    cursor:pointer;
+    font-size:12px;
+    display:flex;
+    align-items:center;
+    padding:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border:1px solid gray;
+    border-radius:2px;
+    border-left:0;
+}
+
+.section .favorites {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.disponibilidade .shrink {
+    max-width: 100%;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.disponibilidade .columns {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    min-width: initial;
+}
+
+.disponibilidade .bullet {
+    padding-top: 16px;
+}
+
+.disponibilidade .store {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: #f16522;
+}
+
+.disponibilidade .action {
+    font-size: 0.7rem;
+    color: #666;
+}
+
+.disponibilidade .in {
+    color: #009245 !important;
+}
+
+.disponibilidade .out {
+    color: #EF4136 !important;
+}
+
+.disponibilidade .row {
+    border-top: 1px solid #AAA;
+    margin: 0 0 5px 0;
+    padding-top: 5px;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.0rem;
+    font-size: 0.9rem;
+    height: auto;
+}
+
+.disponibilidade .row:first-child {
+    margin-top: -1px;
+}
+
+.shopping-symbol {
+    margin-right:20px;
+}
+
+.heart-symbol {
+    margin-right:10px;
+}
+
+.modal-header {
+    background: #3bafda;
+    color: white;
+}
+
+.modal-title {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.checked {
+    color: orange;
+}
+
+#Description, #Requirements {
+    margin-top:10px;
+}
+
+.product-video {
+    position:relative;
+    padding-bottom:53%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+}
+
+.product-video iframe, .product-video object, .product-video embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+.product-description {
+    margin-bottom:20px;
+}
+
+.product-strike {
+    text-decoration: line-through;
+}
+
+.product-discount-info{
+    color:red;
+    margin-left:5px;
+}
+
+.notice-addToCart {
+    color: darkgreen;
+    font-size: 14px;
+}
+
+.related_product {
+    margin-bottom: 20px;
+}

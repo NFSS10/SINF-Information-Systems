@@ -1,0 +1,117 @@
+.sidebar1 {
+    padding: 0px;
+    min-height: 100%;
+}
+
+.account_panel_header h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #343a40;
+    border-bottom: 1px solid #343a40;
+}
+
+.my_account_list {
+    color: #343a40;
+    list-style: none;
+    padding-left: 0px;
+}
+
+
+.my_account_list> li, .my_account_list h5 {
+    padding: 5px 0px 5px 40px;
+}
+.my_account_list>li:hover {
+    background-color: rgba(237, 88, 68, 1);
+    border-left: 6px solid #343a40;
+    color: white;
+    font-weight: bolder;
+    padding-left: 35px;
+}
+.main-content{
+    text-align:center;
+}
+
+/**
+
+table
+
+ */
+
+.tbp {
+    color: orangered !important;
+}
+
+.rtpu {
+    color: green !important;
+}
+
+.ip {
+    color: yellowgreen !important;
+}
+
+.my_orders th {
+    padding: 1% 1% 1%;
+}
+.my_orders th h1 {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+    color: #ffffff;
+}
+
+#my_orders_content {
+    margin-bottom: 100px;
+}
+
+.my_orders td {
+    font-weight: normal;
+    font-size: 1em;
+    -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+    -moz-box-shadow: 0 2px 2px -2px #0E1119;
+    box-shadow: 0 2px 2px -2px #0E1119;
+    color: #343a40;
+}
+
+.my_orders {
+    text-align: left;
+    overflow: hidden;
+    display: table;
+    color:#A7A1AE;
+}
+
+.my_orders td {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left:2%;
+}
+
+
+
+.my_orders th {
+    background-color: #1F2739;
+}
+
+.my_orders tr:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.my_orders tr a{
+    color: black !important;
+}
+
+
+@media (max-width: 800px) {
+    .container td:nth-child(4),
+    .container th:nth-child(4) { display: none; }
+}
+
+@media (max-width: 480px) {
+    #my_orders_content {
+       margin-bottom: 10px;
+    }
+
+    .my_orders tr a{
+        text-decoration: none !important;
+    }
+}

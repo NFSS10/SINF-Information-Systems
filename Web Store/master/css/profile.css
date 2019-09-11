@@ -1,0 +1,91 @@
+#profile_container .card-block {
+	margin: 0px 0px 15px 15px;
+}
+
+#profile_container .p_name {
+	padding-right: 10%;
+}
+
+#profile_container .p_detail_item {
+	padding-top: 15px;
+	align-items: center;
+}
+
+#profile_container .user_detail_info_table {
+	margin-bottom: 50px;
+}
+
+#profile_container .card-header {
+	background-color: #ed5844;
+	color: white;
+}
+
+#profile_container #user_info_edit, #profile_container #user_shipping_info_edit {
+	float: right;
+	text-decoration: none !important;
+}
+
+#profile_container #user_info_edit:active {
+	color: black;
+}
+
+#profile_container .card-header a {
+color: inherit;
+}
+
+#profile_container .p_pi_form_item, #profile_container .p_shipi_form_item {
+	margin-top: 15px;
+	margin-bottom: 0px !important;
+}
+
+#profile_container .p_form_item {
+    align-items: center;
+}
+
+#profile_edit_buttons {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#profile_edit_buttons .btn-danger {
+    background-color: #ed5844;
+    border: 1px solid #343a40;
+}
+
+#profile_edit_buttons .btn-danger:hover {
+    background-color: #ff0000;
+}
+
+#profile_edit_buttons .btn-success {
+    border: 1px solid #343a40;
+}
+
+#profile_edit_buttons .save {
+    padding-right: 5px;
+}
+
+#profile_container .pcode2 {
+    padding-left: 5px;
+}
+
+#profile_container #p_edit_error i, #profile_container #p_edit_error2 i{
+    color: black;
+}
+
+
+@media screen
+and (max-device-width : 480px)
+{
+    #profile_container .pcode1 {
+        width: 50%
+    }
+
+    #profile_container .pcode2 {
+        width: 50%;
+    }
+
+    #profile_container .card .row {
+        margin-right: 3px;
+    }
+
+}
